@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+}
+
+.form_login {
+    margin: 64px auto;
+    width: 256px;
+}
+
+.form_login input {
+    width: 100%;
+    height: 32px;
+}

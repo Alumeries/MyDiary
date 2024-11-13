@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block link %}
+
+{% endblock %}
+
+{% block menu %}
+{% for i in menu %}
+<li><a href=" {{ i.url }} "> {{ i.text }} </a></li>
+{% endfor %}
+{% endblock %}
+
+{% block content %}
+<h2>Главная страница</h2>
+{% endblock %}

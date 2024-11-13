@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+header, footer{
+    background-color: #1e90ff;
+    padding: 10px;
+    color: #fff;
+}
+
+.content {
+    min-height: 100vh;
+}
